@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar-top {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color: #18181B;
+}
+
+.top ,.top1 ,.top2 ,.top3 {
+    display: flex;
+}
+
+.top1 ,.top3 {
+    width: 197px;
+}
+
+.top3 { 
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.logoimg {
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+}
+
+.skim {
+    height: 20px;
+    color: #BF94FF;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.more {
+    width: 50px;
+    height: 50px;
+    color: #BF94FF;
+    padding: 9px 20px;
+
+}
+
+.input {
+    width: 355px;
+    height: 36px;
+    border-radius: 10px 0 0 10px;
+    background-color: #ffffff33;
+    padding-left: 10px;
+}
+.input:focus-visible {
+    outline: none;
+}
+.input::placeholder {
+    color: #BFBFC0;
+}
+
+.inputimg {
+    height: 34px;
+    width: 36px;
+    background-image: url(./img/放大鏡.jpg);
+    background-size: 100%;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.navbar-r {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.right-1 {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/皇冠.jpg);
+    background-size: 100%;
+}
+
+.right-2, .right-3 {
+    width: 46px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 11px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right-2 {
+    background-color: rgb(212, 203, 203);
+}
+
+.right-3 {
+    background-color: rgb(203, 61, 231);
+    color: white;
+}
+
+.right-4 {
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-image: url(./img/個人.jpg);
+}
+
+
+
+.navbar-left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: calc(100vh - 50px);
+    width: 50px;
+    background-color: #1F1F23;
+}
+
+.navbar-left-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+
+
+.main {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: calc(100% - 50px);
+    background-color : #0E0E10;
+
+}
+
+.contaniner {
+    max-width: calc(100% - 68px);
+    height: 100%;
+    margin:  auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.class-co1-4 {
+    width: calc(25% - 10px);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.classfication-card {
+    position: relative;
+    background-color: #703ebb;
+    border-radius: 5px;
+    
+}
+
+.classfication-title{
+    font-size: 30px;
+    color:white;
+    line-height: 2;
+    padding: 0 0 0 10px;
+}
+
+.classfication-img {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    width: 60px;
+}
+
+h1 {
+    font-size: 54px;
+    color: #EFEFF1;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 24px;
+    color: #adadb8;
+    margin-top: -1px;
+    margin-bottom: 46px;
+    font-weight: bolder;
+}
+
+.e-sport-row ,.class-co1-row {
+    gap: 10px;
+}
+
+.e-sport-co1-6 {
+    width: calc(16.4% - 5px);
+}
+
+.e-soprt-card {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background-color: #323234;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.e-soprt-img {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.e-soprt-img img {
+    width: 38px;
+}
+
+
+.e-soprt-description {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+.e-soprt-audience {
+    color: #adadb8;
+}
+
+
+.e-soprt-live {
+    padding: 5px;
+    height: 100%;
+}
+
+
+.e-soprt-icon {
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #EFEFF1;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+
+
+
+.p2 {
+    font-size: 18px;
+    color: #adadb8;
+    margin-top: -8px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.live1-co1 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.live1-co1-1 {
+    width: 30%;
+}
+
+.live2-row {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    width: 70%;
+}
+
+.live2-co1-4 {
+    width: calc(25% - 15px );
+    
+}
+
+.live-card {
+    width: 100%;
+    
+}
+
+.live-bg {
+    position: relative;
+    width: 100%;
+
+}
+
+#co1-img {
+    width: 100%;
+}
+
+.live-bg-img {
+    width: 100%;
+    
+}
+
+.live-bg-live {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+
+.live-bg-audience {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color:#413A30;
+    font-size: 13px;
+
+}
+
+.live-channel {
+    display: flex;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.channel-icon {
+    width: 20px;
+    border-radius: 50%;
+    
+}
+
+.channel-name {
+    color: #BF94FF;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.live-theme {
+    width: 100%;
+    background-color: black;
+    color: #efeffe;
+    font-size: 14px;
+}
+
+.live-type {
+    color: #adadb8;
+}
+
+@media screen and (max-width:1575px) {
+    
+    .e-sport-co1-6 {
+        width: calc(25% - 10px);
+    }
+}
+
+@media screen and (max-width:1430px) {
+
+    .live1-co1-1 {
+        width: 50%;
+    }
+
+    .live2-row {
+        width: 50%;
+    }
+    
+    .live2-co1-4 {
+        width: calc(50% - 15px );
+    }
+}
+
+@media screen and (max-width:1020px) {
+    
+    .class-co1-4 {
+        width: calc(50% - 10px);
+        margin-top: 0px;
+    }
+
+    .e-sport-co1-6 {
+        width: calc(50% - 10px);
+    }
+
+    .live1-co1-1 {
+        display: none;
+    }
+    
+    .live2-row {
+        width: 100%;
+    }
+
+    .live2-co1-4 {
+        width: calc(50% - 10px);
+    }
+
+
+
+
+}
